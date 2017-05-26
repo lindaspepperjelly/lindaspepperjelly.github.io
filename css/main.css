@@ -9,10 +9,13 @@ html, body {
 
 body {
   font-family: 'Lato', sans-serif;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
+  /*background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');*/
+  background-image: url("https://images.pexels.com/photos/177567/pexels-photo-177567.jpeg?h=350&auto=compress&cs=tinysrgb");
+  
   background-position: center top;
   background-size: cover;
   margin: 0;
+  background-color: #fadb87;
 }
 
 .page-title {
@@ -35,7 +38,7 @@ body {
 
 .gallery-item {
   margin: 20px;
-  border: 5px solid #FFF;
+  border: 5px solid #f5e2bf;
 }
 
 .gallery-item .thumbnail {
@@ -45,7 +48,7 @@ body {
 /* FOOTER NAVIGATION */
 
 nav {
-  background-color: #FFF;
+  background-color: #f5e2bf;
 }
 
 nav li {
@@ -82,3 +85,12 @@ nav a {
   text-decoration: none;
 }
 
+.thumbnail { 
+  height: 200px;
+  width: 250px;
+  }
+  
+  figure {
+    text-align:center;
+    }
+  }
