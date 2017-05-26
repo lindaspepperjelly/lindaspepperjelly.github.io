@@ -46,6 +46,8 @@ body {
 
 nav {
   background-color: #FFF;
+  position: fixed;
+  bottom: 0;
 }
 
 nav li {
