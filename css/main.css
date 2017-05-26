@@ -46,7 +46,6 @@ body {
 
 nav {
   background-color: #FFF;
-  bottom: 0;
 }
 
 nav li {
@@ -58,6 +57,7 @@ nav li {
 nav ul {
   display: inline;
 }
+
 
 .contact-btn {
 float: right;
